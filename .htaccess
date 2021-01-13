@@ -1,0 +1,11 @@
+RewriteEngine On
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+<Files "database.db">
+Order allow,deny
+Deny from all
+</Files>

@@ -1,0 +1,49 @@
+.nopadding{
+	padding:0px 0px 0px 0px;
+}
+#mapid {
+	height:100%;
+	background-color:#555555;
+}
+.full-height-maprow {
+  height: 100%;
+  height: -moz-calc(100vh - 56px);
+  height: -webkit-calc(100vh - 56px);
+  height: -o-calc(100vh - 56px);
+  height: calc(100vh - 56px);
+}
+html, body{
+    height:100%;
+    width:100%;
+	background-color:#555555;
+}
+
+.leaflet-popup-content {
+	margin: 4px 4px;
+	text-align: center;
+}
+.temppopup{
+	text-align: center;
+	font-weight: bold;
+}
+.recent{
+	overflow-y: scroll;
+	height:100%;
+}
+#submitmap{
+	height:500px;
+	background-color:#555555;
+}
+#detailsmap{
+	height:250px;
+	background-color:#555555;
+}
+.weather-icon-color-blue{
+	color:#4293cd!important;
+}
+.line-devide {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 1.3em;
+    margin-top: 1.3em;
+
+}
